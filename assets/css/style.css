@@ -1,0 +1,30 @@
+body {
+    background: url(../images/shagy.png);
+    background-size: 90em;
+    background-position-x: 100px;
+    color: #eee;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+
+
+    
+    
+}
+
+.border {
+    border: solid 1px black;
+    display: inline-block;
+}
+
+.container {
+    height: auto; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;    
+    letter-spacing: 0.1em;
+    line-height: 4em;
+}
+
+.guessed {
+color: #6be;
+text-transform: uppercase;    
+}
