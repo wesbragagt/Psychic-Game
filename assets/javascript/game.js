@@ -41,20 +41,20 @@ document.onkeyup = function (event) {
         alert("OOOOH NOO, You got me");
         win = win + 1;
         document.getElementById("wins").innerHTML = win;
-        location.reload();
-
+        computerGuess = generateRandomLetter();
+        console.log(computerGuess);
 
 
     }
     else {
         alert("haha wrong letter, psyyyych!");
-        lossess = lossess + 1;
         guessesLeft = guessesLeft - 1;
         document.getElementById("guesses-left").innerHTML = guessesLeft;
 
         if (guessesLeft === 0) {
             alert("GAMEOVER");
-            document.write("<h1>Game Over</h1>");
+            location.reload();
+
         }
         else { return; }
     }
