@@ -1,7 +1,8 @@
 body {
     background: url(../images/shagy.png);
-    background-size: 125em;
-    background-position-x: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: .5em;
     color: #eee;
     text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
     max-width: 1920px;
@@ -18,12 +19,12 @@ body {
 
 .container {
     height: auto; 
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
+    margin-left: 100px;
     padding: 1em;    
     letter-spacing: 0.1em;
-    line-height: 4em;
-    font-size: 1.7em;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 
 .guessed {
